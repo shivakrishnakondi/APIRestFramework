@@ -37,7 +37,7 @@ public class PlaceValidStepDef  extends Utility{
 				.body(data.addPlacePayload(name, language, address));
 	}
 
-
+		//resource are coming from APIResources
 @When("User calls {string} API with {string} Request")
 public void user_calls_api_with_request(String resource, String method) {
 		APIResources resourceAPI = APIResources.valueOf(resource);
